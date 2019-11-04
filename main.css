@@ -1,0 +1,266 @@
+body{
+	margin:0;
+	background:black;
+    height:100%;
+    width:100%;
+    overflow: scroll;/*对溢出部分设置滚动属性*/
+    overflow-x:hidden;
+    min-width:1417px; /*为body标签设置min-width属性，防止缩放造成个别使用相对比例宽度的标签错位。*/                 
+   
+
+
+}
+
+
+header{
+    background: url(http://img.1ppt.com/uploads/allimg/1808/1_180828084949_2.JPG);
+	height:100%;
+    width:auto;
+    overflow: hidden;
+    background-size:cover;
+    
+	color:white;
+	padding:15px 15px 0 5px;
+
+	position: relative;
+	bottom:95px;
+
+    
+}
+
+
+
+
+header h1{
+	
+    width:auto; 
+	margin: 0;
+	display: inline;
+	position: relative;
+	top: 80px;
+	left: 1%;
+   
+  }
+
+
+nav{
+	width: 1px；
+}
+
+
+
+
+nav ul{
+	margin: 0;
+	display: inline;
+	padding: 0 0 15px 5px;
+	width:auto;;
+	min-height:100%;
+	position: relative;
+    
+	top: 101px;
+   
+}
+
+nav ul li{
+	width:auto;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552899344089&di=078296923bf83d6a9c09007ac0bd5a1d&imgtype=0&src=http%3A%2F%2Fwww.ps-xxw.cn%2Fuploadfile%2F201207%2F14%2F8E214559515.jpg);
+	border-radius: 3px; 
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+    padding:5px 15px;
+    position: relative;
+	left: 4%;
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.searchTxt{
+	position: relative;
+	left: 3.5%;
+	top: 60px;
+}
+
+.searchbar{
+	
+    
+    padding:.5px 5px 10px 10px;
+    position: relative;
+    left: 1050px;
+    bottom: 50px;
+
+
+
+
+
+}
+
+
+
+.input{
+	 position: relative;
+    left: 65px;
+    bottom: 24px;
+}
+
+
+
+.more{
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552897427927&di=8cc5f7d123d31c89ca05d7b734bc5efa&imgtype=0&src=http%3A%2F%2Fimg.article.pchome.net%2F00%2F21%2F64%2F39%2F020.jpg);
+	background-size:cover;
+	position: relative;
+    left: 47%;
+    bottom: 21px;
+    padding:26px 300px 26px 20px;
+
+    
+  
+}
+
+
+
+
+.content{
+	
+	padding-bottom: 100px; /*使footer始终位于底部（可删除）*/
+}
+
+
+.row{
+  
+    position: relative;
+    bottom: 80px;
+    left: 23px;
+
+}
+
+.frontpage{
+	text-align:center;
+	background: url(http://5b0988e595225.cdn.sohucs.com/images/20180518/22814d27f8cd407ca4e28e9a4a2f72a0.jpeg);
+	border-radius: 5px;     /*边界半径*/
+	color: white;
+    float: left;
+    width:93.5%; 
+    margin: 1%;
+    padding: 10px;
+	min-height:750px;
+	background-size:cover;
+}
+
+.form{
+	color: white;
+	opacity: 0.9;
+	background: silver;
+	position: relative;
+	width:30%;
+	border-radius: 30px;
+	left: 80px;
+	top: 30px;
+	padding: 4px 1px 1px 1px;
+	text-align:center;
+
+
+}
+
+
+
+.content .row .frontpage .links{
+	text-align: left;
+
+}
+
+.content .row .frontpage .links ul{
+	
+}
+
+.content .row .frontpage .links ul li{
+	list-style-type: none;
+	position: relative;
+	left: 41px;
+	top: 30px;
+    color: white;
+	
+}
+
+
+.content .row .frontpage .t1 ul li{
+	list-style-type: none;
+	position: relative;
+	right: 619px;
+	top: 30px;
+}
+
+.content .row .frontpage .links ul li a{
+     color: #F8F8FF;
+     
+     font-weight:bold;
+     font-family: Fantasy;
+     text-decoration: none;
+
+}
+
+
+
+
+.col{
+	
+	border-radius: 10px;     /*边界半径*/     
+	color: white;
+    float: left;
+    width:29%; 
+    height: 300px;
+    margin: 1%;
+    padding: 10px;
+    background:url("http://pic.90sjimg.com/back_pic/qk/back_origin_pic/00/02/74/ce0376c88cceffb44e1ad56cfc711b91.jpg");
+    background-size: cover;
+
+}
+
+
+img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;	
+}                         /*图片比例适应*/
+
+footer{
+	clear: both;/*清除两边浮动内容*/
+	
+	color: white;
+
+	background: url(http://img.1ppt.com/uploads/allimg/1808/1_180828084949_2.JPG);
+	height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;/*背景设置*/
+	
+	margin-top: -100px;   /*使footer始终位于底部（必要）*/
+	
+	background-color: #999;
+	padding:15px;
+	
+}
+
+.form3{
+	color: white;
+	opacity: 0.9;
+	background: silver;
+	position: relative;
+	width:30%;
+	height: 250px;
+	border-radius: 30px;
+	left: 68%;
+	bottom: 170px;
+	padding: 4px 1px 1px 1px;
+	text-align:left;
+
+
+}
